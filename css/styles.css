@@ -1,0 +1,170 @@
+
+body{
+  font-family: "Montserrat";
+}
+
+#title{
+  background-color: #fd0054;
+  color: #fff;
+  position: relative;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+h1{
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3.5s`rem;
+  line-height: 1.5;
+}
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size:2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 12px;
+}
+
+.nav-link{
+  font-family:"Montserrat-light";
+  font-size: 1.2rem;
+}
+
+.download-btn{
+  margin:5% 3% 5%;
+}
+
+.title-img{
+  width:60%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+h2{
+ font-family: "Montserrat";
+ font-weight:
+ font-size:3rem;
+ line-height: 1.5;
+}
+
+h3{
+  font-family: "Montserrat";
+}
+
+p{
+  color: #8f8f8f;
+}
+
+/*feature-section */
+
+#features{
+  padding: 2% 15%;
+  position: relative;
+  background-color: #f5f0e3;
+}
+
+.features-box{
+  text-align: center;
+  padding: 5%;
+}
+
+.icon{
+  color: #c72c41;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #fa744f;
+}
+
+/* testimonials section */
+
+#testimonials{
+  background-color: #ff4c68;
+
+  text-align: center;
+  color: #fff;
+}
+
+.testimonials-img{
+  width:15%;
+  border-radius: 100%;
+}
+.carousel-item{
+  padding:7% 15%;
+}
+
+#press{
+  background-color: #ff4c68;
+  text-align:center;
+  padding-top: 30px;
+  padding-bottom: 10%;
+}
+
+.press-img{
+  margin:10px;
+}
+
+/* Pricing Section */
+
+#pricing{
+  padding :100px;
+  background-color: #f5f0e3;
+  text-align: center;
+}
+
+.pricin-coloum {
+  padding: 3% 2%;
+}
+
+.card{
+  background-color: #dfdfdf;
+}
+
+
+@media (max-width:1028px) {
+  #title{
+    text-align: center;
+  }
+
+  .title-img{
+    position: static;
+    transform: rotate(0);
+
+  }
+}
+
+#cta{
+  background-color: #fa4252;
+  text-align: center;
+  font-family: "Montserrat";
+  color: #fff;
+  padding-top: 5%;
+}
+
+#footer{
+  text-align: center;
+  background-color: #f5f0e3;
+  padding: 5%;
+
+}
+.download-btn-footer{
+  margin:50px 30px;
+}
+
+.footer-icon{
+  margin:0 8px;
+}
+
+p{
+  margin-top:20px;
+}
